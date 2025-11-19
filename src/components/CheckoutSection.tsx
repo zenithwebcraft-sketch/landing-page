@@ -1,9 +1,8 @@
-import HotmartCheckout from './HotmartCheckout';
-
 /**
- * Sección de Checkout - Incluye título, descripción y checkout embebido
- * Esta sección se coloca en la parte inferior de tu landing
+ * CheckoutSection - Versión alternativa con iframe
+ * Usa esta versión si el checkout embebido da error de "Offer not found"
  */
+
 const CheckoutSection = () => {
   return (
     <section 
@@ -43,9 +42,18 @@ const CheckoutSection = () => {
           </div>
         </div>
 
-        {/* Checkout embebido de Hotmart */}
+        {/* Checkout en iframe */}
         <div className="checkout-content">
-          <HotmartCheckout />
+          <iframe 
+            src="https://pay.hotmart.com/M102318829D?off=43vz0ocq"
+            style={{
+              width: '100%',
+              minHeight: '800px',
+              border: 'none',
+              borderRadius: '8px'
+            }}
+            title="Checkout Hotmart"
+          />
         </div>
 
         {/* Garantía y Soporte */}
@@ -133,8 +141,9 @@ const CheckoutSection = () => {
           background: white;
           border-radius: 16px;
           box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
-          padding: 40px;
+          padding: 20px;
           margin-bottom: 40px;
+          overflow: hidden;
         }
 
         .checkout-footer {
@@ -194,7 +203,11 @@ const CheckoutSection = () => {
           }
 
           .checkout-content {
-            padding: 24px 16px;
+            padding: 16px;
+          }
+
+          .checkout-content iframe {
+            min-height: 600px !important;
           }
 
           .guarantee-badge {
