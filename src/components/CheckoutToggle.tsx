@@ -63,21 +63,24 @@ const CheckoutToggle = ({ defaultMode }: CheckoutToggleProps) => {
       </div>
 
       <div className="checkout-display">
-        {selectedMode === 'embedded' ? (
-          <div className="embedded-checkout-wrapper">
-            {/* Checkout embebido de Hotmart */}
-            <HotmartCheckout />
-          </div>
-        ) : (
-          <div className="hotmart-redirect-wrapper">
-            {/* Iframe con URL de Hotmart */}
-            <iframe 
-              src={hotmartUrl}
-              className="hotmart-iframe"
-              title="Hotmart Checkout"
-            />
-          </div>
-        )}
+{selectedMode === 'embedded' ? (
+  <div className="embedded-checkout-wrapper">
+    <HotmartCheckout />
+  </div>
+) : (
+  <div className="hotmart-redirect-wrapper">
+    <iframe 
+      src={hotmartUrl}
+      style={{
+        width: '100%',
+        minHeight: '800px',
+        border: 'none',
+        borderRadius: '8px'
+      }}
+      title="Hotmart Checkout"
+    />
+  </div>
+)}
       </div>
 
       <style jsx>{`
