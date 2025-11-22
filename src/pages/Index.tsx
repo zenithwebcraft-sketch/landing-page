@@ -24,7 +24,6 @@ const Index = () => {
         <BonusesSection />
         <CTASection />
         <FAQSection />
-        <CheckoutSection />
         <CheckoutSection defaultMode={defaultPaymentMode} />
         <Footer />
       </div>
