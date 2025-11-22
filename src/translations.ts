@@ -4,6 +4,7 @@ export type Language = 'es' | 'en';
 
 export const translations = {
   es: {
+    announcement: "ANUNCIO IMPORTANTE: ¡OFERTA DISPONIBLE POR TIEMPO LIMITADO!",
     // Hero Section
     hero: {
       brand: "ZenithWebCraft",
@@ -195,7 +196,7 @@ export const translations = {
           value: "$197"
         },
         {
-          title: "Infraestructura Global de Alta Velocidad",
+          title: "Hosting Global de Alta Velocidad",
           description: "Alojamiento en redes CDN de última generación con detección automática de idioma. Tu página volará y se adaptará al usuario, sin importar dónde esté.",
           value: "$147"
         },
@@ -277,6 +278,7 @@ export const translations = {
   },
   
   en: {
+    announcement: "IMPORTANT ANNOUNCEMENT: OFFER AVAILABLE FOR A LIMITED TIME!",
     // Hero Section
     hero: {
       brand: "ZenithWebCraft",
@@ -468,7 +470,7 @@ export const translations = {
           value: "$197"
         },
         {
-          title: "High-Speed Global Infrastructure",
+          title: "High-Speed Global Hosting",
           description: "Hosting on state-of-the-art CDN networks with automatic language detection. Your page will load instantly and adapt to the user, no matter where they are.",
           value: "$147"
         },
