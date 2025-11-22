@@ -75,7 +75,7 @@ const CTASection = () => {
           <Button 
             onClick={handleCTAClick}
             size="lg"
-            className="bg-primary hover:bg-primary/90 text-gray-900 font-bold text-base sm:text-xl px-8 sm:px-12 py-7 sm:py-8 rounded-xl shadow-2xl hover:shadow-primary/50 transition-all duration-300 group w-full max-w-2xl mx-auto"
+            className="w-full sm:w-auto h-auto py-4 px-8 text-base sm:text-lg font-bold uppercase tracking-wider whitespace-normal text-center bg-[#FCD34D] text-black hover:bg-[#F59E0B]"
           >
             <span className="text-center leading-tight">
               {t.cta.ctaButton}

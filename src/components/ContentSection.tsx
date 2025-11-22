@@ -86,8 +86,7 @@ const ContentSection = () => {
               <Button 
                 onClick={handleCTAClick}
                 size="lg"
-                className="w-full bg-primary hover:bg-primary/90 text-gray-900 font-bold text-base sm:text-lg py-6 sm:py-7 rounded-lg shadow-2xl hover:shadow-primary/50 transition-all duration-300"
-              >
+               className="w-full sm:w-auto h-auto py-4 px-8 text-base sm:text-lg font-bold uppercase tracking-wider whitespace-normal text-center bg-[#FCD34D] text-black hover:bg-[#F59E0B]"
                 <span className="text-center leading-tight">
                   {t.content.ctaButton}
                 </span>

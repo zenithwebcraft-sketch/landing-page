@@ -45,14 +45,17 @@ const BonusesSection = () => {
                     </div>
 
                     <div className="flex-1">
-                      <div className="flex items-start justify-between mb-2">
-                        <h3 className="font-bold text-white text-lg leading-tight">
-                          {bonus.title}
-                        </h3>
-                        <span className="text-primary font-bold text-lg whitespace-nowrap ml-2">
-                          {bonus.value}
-                        </span>
-                      </div>
+{/* --- AQUÍ ESTÁ EL CAMBIO CLAVE PARA LA ALINEACIÓN --- */}
+            <div className="flex justify-between items-start gap-4 mb-2">
+              <h3 className="font-bold text-white text-lg leading-tight uppercase">
+                {bonus.title}
+              </h3>
+              {/* shrink-0 evita que el precio se corte o se aplaste */}
+              <span className="text-primary font-bold text-lg shrink-0">
+                {bonus.value}
+              </span>
+            </div>
+            {/* ---------------------------------------------------- */}
                       <p className="text-gray-400 text-sm leading-relaxed">
                         {bonus.description}
                       </p>
