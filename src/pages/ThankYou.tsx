@@ -105,21 +105,29 @@ const ThankYouPage = () => {
           </div>
         </div>
 
-        <div className="text-center">
-          <Card className="inline-block bg-gray-800 border border-gray-700">
-            <CardContent className="p-6">
-              <h3 className="text-lg font-bold text-white mb-3">
-                {t.thankYou.questionsTitle}
+        <div className="text-center mt-8">
+          <Card className="inline-block bg-gray-800 border border-gray-700 max-w-lg w-full">
+            <CardContent className="p-8">
+              <h3 className="text-xl font-bold text-white mb-3">
+                {t.thankYou.step1Title || "Completa tu Información"}
               </h3>
-              <p className="text-gray-300 mb-4">
-                {t.thankYou.questionsText}
+              <p className="text-gray-300 mb-6">
+                {t.thankYou.step1Text || "Necesitamos tus datos para iniciar."}
               </p>
-              <Button
-                onClick={() => window.location.href = 'mailto:soporte@zenithwebcraft.com'}
-                className="bg-primary hover:bg-primary/90 text-gray-900 font-bold"
+              
+              {/* BOTÓN DEL FORMULARIO GOOGLE */}
+              <a
+                href="https://forms.gle/AZ2qXHMk7YWXSwYM6"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center w-full sm:w-auto bg-[#D4AF37] hover:bg-[#B5952F] text-black font-bold text-lg py-4 px-8 rounded-full transition-all transform hover:scale-105 shadow-lg hover:shadow-[#D4AF37]/20"
               >
-                {t.thankYou.contactButton}
-              </Button>
+                {t.thankYou.contactButton} ➔
+              </a>
+              
+              <p className="mt-4 text-sm text-gray-500">
+                *Es indispensable para entregar en 48h
+              </p>
             </CardContent>
           </Card>
         </div>

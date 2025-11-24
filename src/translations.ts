@@ -102,32 +102,26 @@ export const translations = {
     thankYou: {
       title: "¡Compra Exitosa!",
       subtitle: "Gracias por confiar en ZenithWebCraft",
-      message: "Tu landing page profesional está en camino",
+      message: "Tu landing page inteligente está en camino",
       whatNext: "¿Qué Sigue Ahora?",
-      step1Title: "1. Revisa tu Email (Siguiente 5 minutos)",
-      step1Text: "Recibirás un email de confirmación de Hotmart con los detalles de tu compra y el recibo.",
-      step2Title: "2. Completa el Formulario de Información (Hoy)",
-      step2Text: "Te enviaremos un formulario para recopilar la información necesaria para tu landing page:",
-      step2Items: [
-        "Tu información de negocio",
-        "Colores de marca preferidos",
-        "Textos y contenido principal",
-        "Logo e imágenes (si tienes)"
-      ],
-      step3Title: "3. Recibe tu Landing Page (Máximo 48 horas)",
-      step3Text: "Crearemos tu landing page profesional y te la entregaremos completamente funcional, instalada en tu dominio y lista para empezar a vender.",
-      whatYouGet: "Lo Que Recibirás",
+      step1Title: "1. Completa el Formulario de Inicio (IMPORTANTE)",
+      step1Text: "Necesitamos la información básica de tu negocio para configurar el Smart Checkout y el diseño. Haz clic en el botón de abajo para enviarnos tus datos.",
+      step2Title: "2. Configuración Técnica (24 Horas)",
+      step2Text: "Nuestro equipo conectará tu dominio a la red global CDN y configurará las pasarelas de pago para USA y Latam.",
+      step3Title: "3. Entrega Final (Máximo 48 horas)",
+      step3Text: "Te enviaremos tu enlace final para revisión. Tu negocio estará vendiendo globalmente en tiempo récord.",
+      whatYouGet: "Tu Paquete Activado Incluye:",
       items: [
         "Landing Page Profesional de Alta Conversión",
-        "Guía de Copywriting en PDF",
-        "Paleta de Colores Personalizada",
+        "Sistema Smart Checkout (USA + Latam)",
+        "Hosting Global de Alta Velocidad",
         "Instalación en tu Dominio",
-        "30 Días de Soporte por Email"
+        "30 Días de Soporte Prioritario"
       ],
       questionsTitle: "¿Tienes Preguntas?",
       questionsText: "Estamos aquí para ayudarte",
-      contactButton: "Contactar Soporte",
-      socialProof: "🎉 Te uniste a más de 50 emprendedores que ya tienen su landing page profesional"
+      contactButton: "Ir al Formulario de Inicio", // Usaremos este botón para el form
+      socialProof: "🎉 Te uniste a los emprendedores que ya venden sin fronteras"
     },
 
     // Benefits Section
@@ -376,32 +370,26 @@ export const translations = {
     thankYou: {
       title: "Purchase Successful!",
       subtitle: "Thank you for trusting ZenithWebCraft",
-      message: "Your professional sales page is on its way",
+      message: "Your smart landing page is on its way",
       whatNext: "What's Next?",
-      step1Title: "1. Check Your Email (Next 5 minutes)",
-      step1Text: "You'll receive a confirmation email from Hotmart with your purchase details and receipt.",
-      step2Title: "2. Complete the Information Form (Today)",
-      step2Text: "We'll send you a form to collect the necessary information for your sales page:",
-      step2Items: [
-        "Your business information",
-        "Preferred brand colors",
-        "Main texts and content",
-        "Logo and images (if you have them)"
-      ],
-      step3Title: "3. Receive Your Sales Page (Maximum 48 hours)",
-      step3Text: "We'll create your professional sales page and deliver it fully functional, installed on your domain and ready to start selling.",
-      whatYouGet: "What You'll Receive",
+      step1Title: "1. Complete the Start Form (IMPORTANT)",
+      step1Text: "We need your basic business info to configure the Smart Checkout and design. Click the button below to send us your data.",
+      step2Title: "2. Technical Setup (24 Hours)",
+      step2Text: "Our team will connect your domain to the global CDN network and configure payment gateways for USA and Latam.",
+      step3Title: "3. Final Delivery (Maximum 48 hours)",
+      step3Text: "We will send your final link for review. Your business will be selling globally in record time.",
+      whatYouGet: "Your Activated Package Includes:",
       items: [
         "Professional High-Converting Sales Page",
-        "Copywriting Guide PDF",
-        "Custom Color Palette",
+        "Smart Checkout System (USA + Latam)",
+        "High-Speed Global Hosting",
         "Domain Installation",
-        "30 Days Email Support"
+        "30 Days Priority Support"
       ],
       questionsTitle: "Have Questions?",
       questionsText: "We're here to help",
-      contactButton: "Contact Support",
-      socialProof: "🎉 You joined over 50 entrepreneurs who already have their professional sales page"
+      contactButton: "Go to Start Form",
+      socialProof: "🎉 You joined the entrepreneurs selling without borders"
     },
 
     // Benefits Section
