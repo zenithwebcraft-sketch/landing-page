@@ -13,7 +13,7 @@ const queryClient = new QueryClient();
 const App = () => (
   <QueryClientProvider client={queryClient}>
     <TooltipProvider>
-      <MetaPixel pixelId="2823346924525192" />  {/* ← AGREGAR esta línea */}
+      <MetaPixel pixelId={import.meta.env.VITE_META_PIXEL_ID} />  {/* ← AGREGAR esta línea */}
       <Toaster />
       <Sonner />
       <BrowserRouter>
